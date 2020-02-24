@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     fun onUserResponse(userResponse: Weather) {
-        
+
 
     }
 

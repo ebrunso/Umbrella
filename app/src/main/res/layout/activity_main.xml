@@ -12,10 +12,12 @@
         android:id="@+id/btnEnterZip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Submit Zip Code"
         android:onClick="onClick"/>
 
     <EditText
         android:id="@+id/etZip"
+        android:hint="Enter your Zip Code"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
